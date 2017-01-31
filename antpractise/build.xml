@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<project name="myfirstprogram" default="run">
+
+
+<target name="compile" depends="clean">
+<echo>compile executed</echo>
+<javac srcdir="./java" destdir="./java"/>
+</target>
+
+
+
+
+
+<target name="jar" depends="compile">
+<mkdir dir="./jarfile"/>
+<jar destfile="./jarfile/tekno.jar" basedir="./java">
+<manifest>
+<attribute name="Main-class" value="Demo"/>
+</manifest>
+</jar>
+</target>
+   
+
+<target name="run" depends="jar" >
+<echo>run block executed</echo>
+<java jar="./jarfile/tekno.jar" fork="true" />
+</target>
+
+  <target name="clean">
+<delete dir="./jarfile"/>
+</target>        
+   
+</project>
+

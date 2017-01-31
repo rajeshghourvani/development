@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<project name="myfirstprogram" default="execute">
+<target name="info" >
+<echo>info block executed</echo>
+<echo> my ant version ${ant.version} </echo>
+<echo> my java version ${ant.java.version} </echo>
+<echo>${basedir}</echo>
+</target>
+<target name="compile" depends="info">
+	<echo>compile block executed</echo>
+</target>
+<target name="execute" depends="compile">
+	<echo>execute block executed</echo>
+</target>
+</project>

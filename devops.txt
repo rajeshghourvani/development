@@ -1,0 +1,39 @@
+business requirements specification
+software requirements specification
+high-level design
+low-level desing
+
+
+
+business requirement specification
+software requirement specification
+high level design
+low level design
+
+
+devops
+
+
+dev-create,olan,package and verufy
+ops-release,configure,monitor
+
+
+dev-create,plan,package and verify
+ops-release,configure,monitor
+
+
+previously it was not tht much easy to release or deliver a software..
+developers want freedom to innovate and operations teams want
+to mitigate risk.together development and operations are tasked
+with building and releasing software fast,pretictably,with high quality,securely,efficiently and more.for them.devops is the promised land
+
+
+Using DevOps tools like puppet,chef and jenkins to automate
+specific development taks is only the first step in a DevOps approach.Each tool solves distinct point problems.But not any one manages and automates the entire software delivery process.
+
+
+An enterprise Devops approach calls for a framework to organize and control your software delivery pipeline
+
+
+
+version modules
